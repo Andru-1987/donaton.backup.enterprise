@@ -1,4 +1,4 @@
-﻿-- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.38, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: donaton_bk
 -- ------------------------------------------------------
@@ -19,7 +19,7 @@
 -- Current Database: `donaton_bk`
 --
 
-USE `donaton_bk_terminal`;
+USE `donaton_bk`;
 
 --
 -- Table structure for table `beneficiario`
@@ -43,7 +43,7 @@ CREATE TABLE `beneficiario` (
 
 LOCK TABLES `beneficiario` WRITE;
 /*!40000 ALTER TABLE `beneficiario` DISABLE KEYS */;
-INSERT INTO `beneficiario` VALUES (1,'Calle 1 #123','Jos├® Mart├¡nez','2024-01-15'),(2,'Av. Principal 456','Mar├¡a Rodr├¡guez','2024-02-01'),(3,'Plaza Central 789','Roberto Garc├¡a','2024-02-15'),(4,'Paseo Norte 321','Ana L├│pez','2024-03-01'),(5,'Calle Sur 654','Carolina Torres','2024-03-15');
+INSERT INTO `beneficiario` VALUES (1,'Calle 1 #123','Jos?? Mart??nez','2024-01-15'),(2,'Av. Principal 456','Mar??a Rodr??guez','2024-02-01'),(3,'Plaza Central 789','Roberto Garc??a','2024-02-15'),(4,'Paseo Norte 321','Ana L??pez','2024-03-01'),(5,'Calle Sur 654','Carolina Torres','2024-03-15');
 /*!40000 ALTER TABLE `beneficiario` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -68,7 +68,7 @@ CREATE TABLE `categoria_donacion` (
 
 LOCK TABLES `categoria_donacion` WRITE;
 /*!40000 ALTER TABLE `categoria_donacion` DISABLE KEYS */;
-INSERT INTO `categoria_donacion` VALUES (1,'Alimentos no perecederos','Alimentaci├│n'),(2,'Ropa de invierno','Vestimenta'),(3,'├Ütiles escolares','Educaci├│n'),(4,'Art├¡culos de higiene','Salud'),(5,'Juguetes','Recreaci├│n');
+INSERT INTO `categoria_donacion` VALUES (1,'Alimentos no perecederos','Alimentaci??n'),(2,'Ropa de invierno','Vestimenta'),(3,'??tiles escolares','Educaci??n'),(4,'Art??culos de higiene','Salud'),(5,'Juguetes','Recreaci??n');
 /*!40000 ALTER TABLE `categoria_donacion` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -92,7 +92,7 @@ CREATE TABLE `categoria_voluntario` (
 
 LOCK TABLES `categoria_voluntario` WRITE;
 /*!40000 ALTER TABLE `categoria_voluntario` DISABLE KEYS */;
-INSERT INTO `categoria_voluntario` VALUES (1,'Clasificaci├│n de donaciones'),(2,'Distribuci├│n de alimentos'),(3,'Apoyo en eventos especiales'),(4,'Atenci├│n a beneficiarios'),(5,'Log├¡stica y transporte');
+INSERT INTO `categoria_voluntario` VALUES (1,'Clasificaci??n de donaciones'),(2,'Distribuci??n de alimentos'),(3,'Apoyo en eventos especiales'),(4,'Atenci??n a beneficiarios'),(5,'Log??stica y transporte');
 /*!40000 ALTER TABLE `categoria_voluntario` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -118,7 +118,7 @@ CREATE TABLE `centro_recepcion` (
 
 LOCK TABLES `centro_recepcion` WRITE;
 /*!40000 ALTER TABLE `centro_recepcion` DISABLE KEYS */;
-INSERT INTO `centro_recepcion` VALUES (1,'Av. Principal 123','Pedro Ram├¡rez'),(2,'Calle Central 456','Laura Torres'),(3,'Plaza Mayor 789','Miguel ├üngel Ruiz'),(4,'Av. Libertad 321','Carmen Vega'),(5,'Paseo del Sol 654','Daniel Morales');
+INSERT INTO `centro_recepcion` VALUES (1,'Av. Principal 123','Pedro Ram??rez'),(2,'Calle Central 456','Laura Torres'),(3,'Plaza Mayor 789','Miguel ??ngel Ruiz'),(4,'Av. Libertad 321','Carmen Vega'),(5,'Paseo del Sol 654','Daniel Morales');
 /*!40000 ALTER TABLE `centro_recepcion` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -216,7 +216,7 @@ CREATE TABLE `donacion` (
 
 LOCK TABLES `donacion` WRITE;
 /*!40000 ALTER TABLE `donacion` DISABLE KEYS */;
-INSERT INTO `donacion` VALUES (1,1,2,3,500.00,'Donaci├│n de ropa de invierno','2024-12-03 22:19:52','2024-06-30'),(2,2,1,1,1000.00,'Alimentos no perecederos','2024-12-03 22:19:52','2024-05-15'),(3,3,4,2,300.00,'Art├¡culos de higiene personal','2024-12-03 22:19:52','2024-07-01'),(4,4,3,4,750.00,'├Ütiles escolares para primaria','2024-12-03 22:19:52','2024-08-15'),(5,5,5,5,250.00,'Juguetes educativos','2024-12-03 22:19:52','2024-06-15'),(6,1,1,2,800.00,'Alimentos para comedor comunitario','2024-12-03 22:19:52','2024-05-30'),(7,2,3,3,450.00,'Material escolar','2024-12-03 22:19:52','2024-07-15'),(8,3,2,1,600.00,'Ropa para ni├▒os','2024-12-03 22:19:52','2024-06-01'),(9,4,5,5,350.00,'Juguetes para navidad','2024-12-03 22:19:52','2024-12-24'),(10,5,4,4,900.00,'Kit de higiene familiar','2024-12-03 22:19:52','2024-08-01');
+INSERT INTO `donacion` VALUES (1,1,2,3,500.00,'Donaci??n de ropa de invierno','2024-12-03 22:19:52','2024-06-30'),(2,2,1,1,1000.00,'Alimentos no perecederos','2024-12-03 22:19:52','2024-05-15'),(3,3,4,2,300.00,'Art??culos de higiene personal','2024-12-03 22:19:52','2024-07-01'),(4,4,3,4,750.00,'??tiles escolares para primaria','2024-12-03 22:19:52','2024-08-15'),(5,5,5,5,250.00,'Juguetes educativos','2024-12-03 22:19:52','2024-06-15'),(6,1,1,2,800.00,'Alimentos para comedor comunitario','2024-12-03 22:19:52','2024-05-30'),(7,2,3,3,450.00,'Material escolar','2024-12-03 22:19:52','2024-07-15'),(8,3,2,1,600.00,'Ropa para ni??os','2024-12-03 22:19:52','2024-06-01'),(9,4,5,5,350.00,'Juguetes para navidad','2024-12-03 22:19:52','2024-12-24'),(10,5,4,4,900.00,'Kit de higiene familiar','2024-12-03 22:19:52','2024-08-01');
 /*!40000 ALTER TABLE `donacion` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -243,7 +243,7 @@ CREATE TABLE `donador` (
 
 LOCK TABLES `donador` WRITE;
 /*!40000 ALTER TABLE `donador` DISABLE KEYS */;
-INSERT INTO `donador` VALUES (1,'Juan P├®rez','juan.perez@email.com','PUBLICA'),(2,'Mar├¡a Garc├¡a','maria.garcia@email.com','ANONIMO'),(3,'Carlos L├│pez','carlos.lopez@email.com','PUBLICA'),(4,'Ana Mart├¡nez','ana.martinez@email.com','PUBLICA'),(5,'Roberto S├ínchez','roberto.sanchez@email.com','ANONIMO');
+INSERT INTO `donador` VALUES (1,'Juan P??rez','juan.perez@email.com','PUBLICA'),(2,'Mar??a Garc??a','maria.garcia@email.com','ANONIMO'),(3,'Carlos L??pez','carlos.lopez@email.com','PUBLICA'),(4,'Ana Mart??nez','ana.martinez@email.com','PUBLICA'),(5,'Roberto S??nchez','roberto.sanchez@email.com','ANONIMO');
 /*!40000 ALTER TABLE `donador` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -268,7 +268,7 @@ CREATE TABLE `voluntario` (
 
 LOCK TABLES `voluntario` WRITE;
 /*!40000 ALTER TABLE `voluntario` DISABLE KEYS */;
-INSERT INTO `voluntario` VALUES (1,'Luis Gonz├ílez','1990-05-15'),(2,'Patricia Flores','1988-09-22'),(3,'Fernando Castro','1995-03-10'),(4,'Alejandra D├¡az','1992-11-30'),(5,'Ricardo Mendoza','1985-07-25');
+INSERT INTO `voluntario` VALUES (1,'Luis Gonz??lez','1990-05-15'),(2,'Patricia Flores','1988-09-22'),(3,'Fernando Castro','1995-03-10'),(4,'Alejandra D??az','1992-11-30'),(5,'Ricardo Mendoza','1985-07-25');
 /*!40000 ALTER TABLE `voluntario` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -368,7 +368,7 @@ DELIMITER ;;
 CREATE DEFINER=`root`@`%` PROCEDURE `sp_donadores_segun_fecha`(IN periodo DATE )
 BEGIN
 
-    -- validar que existan donadores en esa temporada
+    
     DECLARE existen_donadores BOOLEAN DEFAULT FALSE;
     SELECT 
 
@@ -397,8 +397,8 @@ BEGIN
 
 
         ELSE
-        -- Mensaje si no hay donadores en el per├¡odo
-        SELECT CONCAT('No se encontraron donaciones para el per├¡odo: ', 
+        
+        SELECT CONCAT('No se encontraron donaciones para el per??odo: ', 
                      DATE_FORMAT(periodo, '%Y-%m-%d'), 
                      ' al ', 
                      DATE_FORMAT(DATE_ADD(periodo, INTERVAL 1 MONTH), '%Y-%m-%d')) 
@@ -467,4 +467,4 @@ USE `donaton_bk`;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-12-03 20:13:54
+-- Dump completed on 2024-12-03 20:48:00
